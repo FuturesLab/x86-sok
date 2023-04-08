@@ -1,0 +1,2286 @@
+The system is: Linux - 5.19.0-35-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/3.25.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/3.25.1/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+cc (Ubuntu 8.4.0-3ubuntu2) 8.4.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-ZnORxX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d91a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d91a.dir/build.make CMakeFiles/cmTC_9d91a.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-ZnORxX'
+Building C object CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccAWd2dh.s
+GNU C17 (Ubuntu 8.4.0-3ubuntu2) version 8.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/8/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Ubuntu 8.4.0-3ubuntu2) version 8.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 72ca2f61babeb977fcf7485cc9c3fa79
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o /tmp/ccAWd2dh.s
+GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_9d91a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d91a.dir/link.txt --verbose=1
+/usr/bin/cc  -v CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o -o cmTC_9d91a 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d91a' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccY7lyTJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9d91a /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d91a' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-ZnORxX'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/8/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/8/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/8/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/8/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-ZnORxX]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9d91a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9d91a.dir/build.make CMakeFiles/cmTC_9d91a.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-ZnORxX']
+  ignore line: [Building C object CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o -c /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/local/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccAWd2dh.s]
+  ignore line: [GNU C17 (Ubuntu 8.4.0-3ubuntu2) version 8.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [warning: GMP header version 6.2.0 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Ubuntu 8.4.0-3ubuntu2) version 8.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [warning: GMP header version 6.2.0 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 72ca2f61babeb977fcf7485cc9c3fa79]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o /tmp/ccAWd2dh.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_9d91a]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d91a.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o -o cmTC_9d91a ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9d91a' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccY7lyTJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_9d91a /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccY7lyTJ.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9d91a] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_9d91a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-6PFm5X
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2bc1d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2bc1d.dir/build.make CMakeFiles/cmTC_2bc1d.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-6PFm5X'
+Building CXX object CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++   -v -o CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccv5TQ5r.s
+GNU C++14 (Ubuntu 8.4.0-3ubuntu2) version 8.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/include/c++/8
+ /usr/include/x86_64-linux-gnu/c++/8
+ /usr/include/c++/8/backward
+ /usr/lib/gcc/x86_64-linux-gnu/8/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C++14 (Ubuntu 8.4.0-3ubuntu2) version 8.4.0 (x86_64-linux-gnu)
+	compiled by GNU C version 8.4.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version isl-0.22.1-GMP
+
+warning: GMP header version 6.2.0 differs from library version 6.2.1.
+warning: MPFR header version 4.0.2 differs from library version 4.1.0.
+warning: MPC header version 1.1.0 differs from library version 1.2.1.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 7f898f3e7c9bafa983b4c472f0e6877a
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccv5TQ5r.s
+GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+Linking CXX executable cmTC_2bc1d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bc1d.dir/link.txt --verbose=1
+/usr/bin/c++  -v CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2bc1d 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2bc1d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjZCLQz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2bc1d /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2bc1d' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-6PFm5X'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/include/c++/8]
+    add: [/usr/include/x86_64-linux-gnu/c++/8]
+    add: [/usr/include/c++/8/backward]
+    add: [/usr/lib/gcc/x86_64-linux-gnu/8/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/include/c++/8] ==> [/usr/include/c++/8]
+  collapse include dir [/usr/include/x86_64-linux-gnu/c++/8] ==> [/usr/include/x86_64-linux-gnu/c++/8]
+  collapse include dir [/usr/include/c++/8/backward] ==> [/usr/include/c++/8/backward]
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/8/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/8/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/include/c++/8;/usr/include/x86_64-linux-gnu/c++/8;/usr/include/c++/8/backward;/usr/lib/gcc/x86_64-linux-gnu/8/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-6PFm5X]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2bc1d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2bc1d.dir/build.make CMakeFiles/cmTC_2bc1d.dir/build]
+  ignore line: [gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-6PFm5X']
+  ignore line: [Building CXX object CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/local/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccv5TQ5r.s]
+  ignore line: [GNU C++14 (Ubuntu 8.4.0-3ubuntu2) version 8.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [warning: GMP header version 6.2.0 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/8"]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/8/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/include/c++/8]
+  ignore line: [ /usr/include/x86_64-linux-gnu/c++/8]
+  ignore line: [ /usr/include/c++/8/backward]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/8/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (Ubuntu 8.4.0-3ubuntu2) version 8.4.0 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 8.4.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version isl-0.22.1-GMP]
+  ignore line: []
+  ignore line: [warning: GMP header version 6.2.0 differs from library version 6.2.1.]
+  ignore line: [warning: MPFR header version 4.0.2 differs from library version 4.1.0.]
+  ignore line: [warning: MPC header version 1.1.0 differs from library version 1.2.1.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 7f898f3e7c9bafa983b4c472f0e6877a]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccv5TQ5r.s]
+  ignore line: [GNU assembler version 2.40 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.40]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking CXX executable cmTC_2bc1d]
+  ignore line: [/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bc1d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_2bc1d ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 8.4.0-3ubuntu2' --with-bugurl=file:///usr/share/doc/gcc-8/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ --prefix=/usr --with-gcc-major-version-only --program-suffix=-8 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.4.0 (Ubuntu 8.4.0-3ubuntu2) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_2bc1d' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjZCLQz.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_2bc1d /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccjZCLQz.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2bc1d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
+    arg [CMakeFiles/cmTC_2bc1d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8] ==> [/usr/lib/gcc/x86_64-linux-gnu/8]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/8;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-LFUUQn
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fcf22/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fcf22.dir/build.make CMakeFiles/cmTC_fcf22.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-LFUUQn'
+Building C object CMakeFiles/cmTC_fcf22.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fcf22.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-LFUUQn/CheckIncludeFile.c
+Linking C executable cmTC_fcf22
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcf22.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_fcf22.dir/CheckIncludeFile.c.o -o cmTC_fcf22  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-LFUUQn'
+
+
+
+Determining if the include file errno.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-snjgKG
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_20a8b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_20a8b.dir/build.make CMakeFiles/cmTC_20a8b.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-snjgKG'
+Building C object CMakeFiles/cmTC_20a8b.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_20a8b.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-snjgKG/CheckIncludeFile.c
+Linking C executable cmTC_20a8b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20a8b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_20a8b.dir/CheckIncludeFile.c.o -o cmTC_20a8b  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-snjgKG'
+
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-IJ7Nsq
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e9a6e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e9a6e.dir/build.make CMakeFiles/cmTC_e9a6e.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-IJ7Nsq'
+Building C object CMakeFiles/cmTC_e9a6e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e9a6e.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-IJ7Nsq/CheckIncludeFile.c
+Linking C executable cmTC_e9a6e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9a6e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e9a6e.dir/CheckIncludeFile.c.o -o cmTC_e9a6e  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-IJ7Nsq'
+
+
+
+Determining if the include file link.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-VldcB1
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4a997/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4a997.dir/build.make CMakeFiles/cmTC_4a997.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-VldcB1'
+Building C object CMakeFiles/cmTC_4a997.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4a997.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-VldcB1/CheckIncludeFile.c
+Linking C executable cmTC_4a997
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a997.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4a997.dir/CheckIncludeFile.c.o -o cmTC_4a997  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-VldcB1'
+
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-ilpG8u
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2a613/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2a613.dir/build.make CMakeFiles/cmTC_2a613.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-ilpG8u'
+Building C object CMakeFiles/cmTC_2a613.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2a613.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-ilpG8u/CheckIncludeFile.c
+Linking C executable cmTC_2a613
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a613.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2a613.dir/CheckIncludeFile.c.o -o cmTC_2a613  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-ilpG8u'
+
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-zoWTXt
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fd36d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fd36d.dir/build.make CMakeFiles/cmTC_fd36d.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-zoWTXt'
+Building C object CMakeFiles/cmTC_fd36d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fd36d.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-zoWTXt/CheckIncludeFile.c
+Linking C executable cmTC_fd36d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd36d.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_fd36d.dir/CheckIncludeFile.c.o -o cmTC_fd36d  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-zoWTXt'
+
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dxVs91
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2e08/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2e08.dir/build.make CMakeFiles/cmTC_f2e08.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dxVs91'
+Building C object CMakeFiles/cmTC_f2e08.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f2e08.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dxVs91/CheckIncludeFile.c
+Linking C executable cmTC_f2e08
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2e08.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f2e08.dir/CheckIncludeFile.c.o -o cmTC_f2e08  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dxVs91'
+
+
+
+Determining if the include file sys/mman.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-1YHyvj
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b501f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b501f.dir/build.make CMakeFiles/cmTC_b501f.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-1YHyvj'
+Building C object CMakeFiles/cmTC_b501f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_b501f.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-1YHyvj/CheckIncludeFile.c
+Linking C executable cmTC_b501f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b501f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_b501f.dir/CheckIncludeFile.c.o -o cmTC_b501f  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-1YHyvj'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-51vBQm
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_60534/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_60534.dir/build.make CMakeFiles/cmTC_60534.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-51vBQm'
+Building C object CMakeFiles/cmTC_60534.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_60534.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-51vBQm/CheckIncludeFile.c
+Linking C executable cmTC_60534
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_60534.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_60534.dir/CheckIncludeFile.c.o -o cmTC_60534  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-51vBQm'
+
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-6Q38Ui
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ea0b9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ea0b9.dir/build.make CMakeFiles/cmTC_ea0b9.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-6Q38Ui'
+Building C object CMakeFiles/cmTC_ea0b9.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ea0b9.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-6Q38Ui/CheckIncludeFile.c
+Linking C executable cmTC_ea0b9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea0b9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ea0b9.dir/CheckIncludeFile.c.o -o cmTC_ea0b9  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-6Q38Ui'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gptzFg
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c0f4e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c0f4e.dir/build.make CMakeFiles/cmTC_c0f4e.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gptzFg'
+Building C object CMakeFiles/cmTC_c0f4e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c0f4e.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gptzFg/CheckIncludeFile.c
+Linking C executable cmTC_c0f4e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c0f4e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_c0f4e.dir/CheckIncludeFile.c.o -o cmTC_c0f4e  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gptzFg'
+
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-0umS4X
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eae74/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eae74.dir/build.make CMakeFiles/cmTC_eae74.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-0umS4X'
+Building C object CMakeFiles/cmTC_eae74.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eae74.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-0umS4X/CheckIncludeFile.c
+Linking C executable cmTC_eae74
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eae74.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_eae74.dir/CheckIncludeFile.c.o -o cmTC_eae74  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-0umS4X'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-vr9pUc
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_96d6e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_96d6e.dir/build.make CMakeFiles/cmTC_96d6e.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-vr9pUc'
+Building C object CMakeFiles/cmTC_96d6e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_96d6e.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-vr9pUc/CheckIncludeFile.c
+Linking C executable cmTC_96d6e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96d6e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_96d6e.dir/CheckIncludeFile.c.o -o cmTC_96d6e  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-vr9pUc'
+
+
+
+Determining if the include file sysexits.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-GVSbZK
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_65c6e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_65c6e.dir/build.make CMakeFiles/cmTC_65c6e.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-GVSbZK'
+Building C object CMakeFiles/cmTC_65c6e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_65c6e.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-GVSbZK/CheckIncludeFile.c
+Linking C executable cmTC_65c6e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65c6e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_65c6e.dir/CheckIncludeFile.c.o -o cmTC_65c6e  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-GVSbZK'
+
+
+
+Determining if the include file termios.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-YaoXJi
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fb210/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fb210.dir/build.make CMakeFiles/cmTC_fb210.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-YaoXJi'
+Building C object CMakeFiles/cmTC_fb210.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_fb210.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-YaoXJi/CheckIncludeFile.c
+Linking C executable cmTC_fb210
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb210.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_fb210.dir/CheckIncludeFile.c.o -o cmTC_fb210  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-YaoXJi'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-wlKkAH
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e666c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e666c.dir/build.make CMakeFiles/cmTC_e666c.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-wlKkAH'
+Building C object CMakeFiles/cmTC_e666c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e666c.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-wlKkAH/CheckIncludeFile.c
+Linking C executable cmTC_e666c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e666c.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e666c.dir/CheckIncludeFile.c.o -o cmTC_e666c  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-wlKkAH'
+
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-UvrJvY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a54ea/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a54ea.dir/build.make CMakeFiles/cmTC_a54ea.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-UvrJvY'
+Building C object CMakeFiles/cmTC_a54ea.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a54ea.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-UvrJvY/CheckIncludeFile.c
+Linking C executable cmTC_a54ea
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a54ea.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a54ea.dir/CheckIncludeFile.c.o -o cmTC_a54ea  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-UvrJvY'
+
+
+
+Determining if the FE_ALL_EXCEPT exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-CbQMLB
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9000b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9000b.dir/build.make CMakeFiles/cmTC_9000b.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-CbQMLB'
+Building C object CMakeFiles/cmTC_9000b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_9000b.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-CbQMLB/CheckSymbolExists.c
+Linking C executable cmTC_9000b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9000b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_9000b.dir/CheckSymbolExists.c.o -o cmTC_9000b  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-CbQMLB'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_ALL_EXCEPT
+  return ((int*)(&FE_ALL_EXCEPT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the FE_INEXACT exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-MzArjP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4ac8b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4ac8b.dir/build.make CMakeFiles/cmTC_4ac8b.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-MzArjP'
+Building C object CMakeFiles/cmTC_4ac8b.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_4ac8b.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-MzArjP/CheckSymbolExists.c
+Linking C executable cmTC_4ac8b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ac8b.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4ac8b.dir/CheckSymbolExists.c.o -o cmTC_4ac8b  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-MzArjP'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <fenv.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef FE_INEXACT
+  return ((int*)(&FE_INEXACT))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file linux/magic.h exists passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-fTywXa
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a1f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7a1f7.dir/build.make CMakeFiles/cmTC_7a1f7.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-fTywXa'
+Building C object CMakeFiles/cmTC_7a1f7.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7a1f7.dir/CheckIncludeFile.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-fTywXa/CheckIncludeFile.c
+Linking C executable cmTC_7a1f7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a1f7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7a1f7.dir/CheckIncludeFile.c.o -o cmTC_7a1f7  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-fTywXa'
+
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-hOBMKi
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0499e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0499e.dir/build.make CMakeFiles/cmTC_0499e.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-hOBMKi'
+Building C object CMakeFiles/cmTC_0499e.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_0499e.dir/CheckFunctionExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-hOBMKi/CheckFunctionExists.c
+Linking C executable cmTC_0499e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0499e.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create CMakeFiles/cmTC_0499e.dir/CheckFunctionExists.c.o -o cmTC_0499e  -lpthread -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-hOBMKi'
+
+
+
+Determining if the function pthread_rwlock_init exists in the pthread passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-1IuLyr
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b6331/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b6331.dir/build.make CMakeFiles/cmTC_b6331.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-1IuLyr'
+Building C object CMakeFiles/cmTC_b6331.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init -o CMakeFiles/cmTC_b6331.dir/CheckFunctionExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-1IuLyr/CheckFunctionExists.c
+Linking C executable cmTC_b6331
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b6331.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_rwlock_init CMakeFiles/cmTC_b6331.dir/CheckFunctionExists.c.o -o cmTC_b6331  -lpthread -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-1IuLyr'
+
+
+
+Determining if the function pthread_mutex_lock exists in the pthread passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gci1fU
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_88ce6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_88ce6.dir/build.make CMakeFiles/cmTC_88ce6.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gci1fU'
+Building C object CMakeFiles/cmTC_88ce6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock -o CMakeFiles/cmTC_88ce6.dir/CheckFunctionExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gci1fU/CheckFunctionExists.c
+Linking C executable cmTC_88ce6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88ce6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_mutex_lock CMakeFiles/cmTC_88ce6.dir/CheckFunctionExists.c.o -o cmTC_88ce6  -lpthread -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gci1fU'
+
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dYd2ur
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_88c6f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_88c6f.dir/build.make CMakeFiles/cmTC_88c6f.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dYd2ur'
+Building C object CMakeFiles/cmTC_88c6f.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=dlopen -o CMakeFiles/cmTC_88c6f.dir/CheckFunctionExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dYd2ur/CheckFunctionExists.c
+Linking C executable cmTC_88c6f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_88c6f.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=dlopen CMakeFiles/cmTC_88c6f.dir/CheckFunctionExists.c.o -o cmTC_88c6f  -ldl -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dYd2ur'
+
+
+
+Determining if the function clock_gettime exists in the rt passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-DwOs2e
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4b9b0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4b9b0.dir/build.make CMakeFiles/cmTC_4b9b0.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-DwOs2e'
+Building C object CMakeFiles/cmTC_4b9b0.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=clock_gettime -o CMakeFiles/cmTC_4b9b0.dir/CheckFunctionExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-DwOs2e/CheckFunctionExists.c
+Linking C executable cmTC_4b9b0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b9b0.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=clock_gettime CMakeFiles/cmTC_4b9b0.dir/CheckFunctionExists.c.o -o cmTC_4b9b0  -lrt -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-DwOs2e'
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-NEd1aa
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_900f1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_900f1.dir/build.make CMakeFiles/cmTC_900f1.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-NEd1aa'
+Building C object CMakeFiles/cmTC_900f1.dir/src.c.o
+/usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_900f1.dir/src.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-NEd1aa/src.c
+Linking C executable cmTC_900f1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_900f1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_900f1.dir/src.c.o -o cmTC_900f1  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-NEd1aa'
+
+
+Source file was:
+#include <pthread.h>
+
+static void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_cancel(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+
+Determining if the compress2 exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gShH8M
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a03be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a03be.dir/build.make CMakeFiles/cmTC_a03be.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gShH8M'
+Building C object CMakeFiles/cmTC_a03be.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a03be.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gShH8M/CheckSymbolExists.c
+Linking C executable cmTC_a03be
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a03be.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a03be.dir/CheckSymbolExists.c.o -o cmTC_a03be  -lm /usr/lib/x86_64-linux-gnu/libz.so 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gShH8M'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <zlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef compress2
+  return ((int*)(&compress2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the xmlReadMemory exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-oMXniU
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bdc47/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bdc47.dir/build.make CMakeFiles/cmTC_bdc47.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-oMXniU'
+Building C object CMakeFiles/cmTC_bdc47.dir/CheckSymbolExists.c.o
+/usr/bin/cc  -I/usr/include/libxml2  -o CMakeFiles/cmTC_bdc47.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-oMXniU/CheckSymbolExists.c
+Linking C executable cmTC_bdc47
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdc47.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_bdc47.dir/CheckSymbolExists.c.o -o cmTC_bdc47  -lm /usr/lib/x86_64-linux-gnu/libxml2.so 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-oMXniU'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <libxml/xmlreader.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef xmlReadMemory
+  return ((int*)(&xmlReadMemory))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the backtrace exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-fwSndW
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_48cc1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_48cc1.dir/build.make CMakeFiles/cmTC_48cc1.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-fwSndW'
+Building C object CMakeFiles/cmTC_48cc1.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_48cc1.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-fwSndW/CheckSymbolExists.c
+Linking C executable cmTC_48cc1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_48cc1.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_48cc1.dir/CheckSymbolExists.c.o -o cmTC_48cc1 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-fwSndW'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <execinfo.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef backtrace
+  return ((int*)(&backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __register_frame exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-YfnRbA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e1f7e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e1f7e.dir/build.make CMakeFiles/cmTC_e1f7e.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-YfnRbA'
+Building C object CMakeFiles/cmTC_e1f7e.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e1f7e.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-YfnRbA/CheckSymbolExists.c
+Linking C executable cmTC_e1f7e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1f7e.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_e1f7e.dir/CheckSymbolExists.c.o -o cmTC_e1f7e  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-YfnRbA'
+
+
+File CheckSymbolExists.c:
+/* */
+#include </home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/cmake/unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __register_frame
+  return ((int*)(&__register_frame))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the __deregister_frame exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-lO9A87
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_20f96/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_20f96.dir/build.make CMakeFiles/cmTC_20f96.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-lO9A87'
+Building C object CMakeFiles/cmTC_20f96.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_20f96.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-lO9A87/CheckSymbolExists.c
+Linking C executable cmTC_20f96
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_20f96.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_20f96.dir/CheckSymbolExists.c.o -o cmTC_20f96  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-lO9A87'
+
+
+File CheckSymbolExists.c:
+/* */
+#include </home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/cmake/unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __deregister_frame
+  return ((int*)(&__deregister_frame))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _Unwind_Backtrace exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-J7Ox6U
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cb807/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cb807.dir/build.make CMakeFiles/cmTC_cb807.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-J7Ox6U'
+Building C object CMakeFiles/cmTC_cb807.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cb807.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-J7Ox6U/CheckSymbolExists.c
+Linking C executable cmTC_cb807
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb807.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_cb807.dir/CheckSymbolExists.c.o -o cmTC_cb807  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-J7Ox6U'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unwind.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _Unwind_Backtrace
+  return ((int*)(&_Unwind_Backtrace))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpagesize exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-W5PCfP
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1c9c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1c9c7.dir/build.make CMakeFiles/cmTC_1c9c7.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-W5PCfP'
+Building C object CMakeFiles/cmTC_1c9c7.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_1c9c7.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-W5PCfP/CheckSymbolExists.c
+Linking C executable cmTC_1c9c7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1c9c7.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_1c9c7.dir/CheckSymbolExists.c.o -o cmTC_1c9c7  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-W5PCfP'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpagesize
+  return ((int*)(&getpagesize))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sysconf exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Ac4YHB
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0a450/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0a450.dir/build.make CMakeFiles/cmTC_0a450.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Ac4YHB'
+Building C object CMakeFiles/cmTC_0a450.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_0a450.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Ac4YHB/CheckSymbolExists.c
+Linking C executable cmTC_0a450
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a450.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_0a450.dir/CheckSymbolExists.c.o -o cmTC_0a450  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Ac4YHB'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sysconf
+  return ((int*)(&sysconf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrusage exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-guJvEA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46672/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46672.dir/build.make CMakeFiles/cmTC_46672.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-guJvEA'
+Building C object CMakeFiles/cmTC_46672.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_46672.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-guJvEA/CheckSymbolExists.c
+Linking C executable cmTC_46672
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46672.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_46672.dir/CheckSymbolExists.c.o -o cmTC_46672  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-guJvEA'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setrlimit exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-DxFNEx
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f2116/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f2116.dir/build.make CMakeFiles/cmTC_f2116.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-DxFNEx'
+Building C object CMakeFiles/cmTC_f2116.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_f2116.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-DxFNEx/CheckSymbolExists.c
+Linking C executable cmTC_f2116
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2116.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_f2116.dir/CheckSymbolExists.c.o -o cmTC_f2116  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-DxFNEx'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setrlimit
+  return ((int*)(&setrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isatty exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-VwhoZY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_eb9fd/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_eb9fd.dir/build.make CMakeFiles/cmTC_eb9fd.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-VwhoZY'
+Building C object CMakeFiles/cmTC_eb9fd.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_eb9fd.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-VwhoZY/CheckSymbolExists.c
+Linking C executable cmTC_eb9fd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eb9fd.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_eb9fd.dir/CheckSymbolExists.c.o -o cmTC_eb9fd  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-VwhoZY'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isatty
+  return ((int*)(&isatty))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimens exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-aoZjbR
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_acc63/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_acc63.dir/build.make CMakeFiles/cmTC_acc63.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-aoZjbR'
+Building C object CMakeFiles/cmTC_acc63.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_acc63.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-aoZjbR/CheckSymbolExists.c
+Linking C executable cmTC_acc63
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_acc63.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_acc63.dir/CheckSymbolExists.c.o -o cmTC_acc63  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-aoZjbR'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/stat.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimens
+  return ((int*)(&futimens))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the futimes exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dZY5DX
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2dbd4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2dbd4.dir/build.make CMakeFiles/cmTC_2dbd4.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dZY5DX'
+Building C object CMakeFiles/cmTC_2dbd4.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2dbd4.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dZY5DX/CheckSymbolExists.c
+Linking C executable cmTC_2dbd4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2dbd4.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2dbd4.dir/CheckSymbolExists.c.o -o cmTC_2dbd4  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dZY5DX'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef futimes
+  return ((int*)(&futimes))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sigaltstack exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-pqH6N5
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8dea0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8dea0.dir/build.make CMakeFiles/cmTC_8dea0.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-pqH6N5'
+Building C object CMakeFiles/cmTC_8dea0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_8dea0.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-pqH6N5/CheckSymbolExists.c
+Linking C executable cmTC_8dea0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8dea0.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_8dea0.dir/CheckSymbolExists.c.o -o cmTC_8dea0  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-pqH6N5'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <signal.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sigaltstack
+  return ((int*)(&sigaltstack))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the lseek64 exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-cNyEky
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ab0eb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ab0eb.dir/build.make CMakeFiles/cmTC_ab0eb.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-cNyEky'
+Building C object CMakeFiles/cmTC_ab0eb.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_LARGEFILE64_SOURCE   -o CMakeFiles/cmTC_ab0eb.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-cNyEky/CheckSymbolExists.c
+Linking C executable cmTC_ab0eb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab0eb.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ab0eb.dir/CheckSymbolExists.c.o -o cmTC_ab0eb  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-cNyEky'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lseek64
+  return ((int*)(&lseek64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-TRvE28
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_80305/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_80305.dir/build.make CMakeFiles/cmTC_80305.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-TRvE28'
+Building C object CMakeFiles/cmTC_80305.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_80305.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-TRvE28/CheckSymbolExists.c
+/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-TRvE28/CheckSymbolExists.c: In function ‘main’:
+/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-TRvE28/CheckSymbolExists.c:8:3: warning: ‘mallinfo’ is deprecated [-Wdeprecated-declarations]
+   return ((int*)(&mallinfo))[argc];
+   ^~~~~~
+In file included from /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-TRvE28/CheckSymbolExists.c:2:
+/usr/include/malloc.h:114:24: note: declared here
+ extern struct mallinfo mallinfo (void) __THROW __MALLOC_DEPRECATED;
+                        ^~~~~~~~
+Linking C executable cmTC_80305
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80305.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_80305.dir/CheckSymbolExists.c.o -o cmTC_80305  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-TRvE28'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo
+  return ((int*)(&mallinfo))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the mallinfo2 exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-i8OE55
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da164/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da164.dir/build.make CMakeFiles/cmTC_da164.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-i8OE55'
+Building C object CMakeFiles/cmTC_da164.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_da164.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-i8OE55/CheckSymbolExists.c
+Linking C executable cmTC_da164
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da164.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_da164.dir/CheckSymbolExists.c.o -o cmTC_da164  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-i8OE55'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <malloc.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef mallinfo2
+  return ((int*)(&mallinfo2))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrlimit exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-mk1xcY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ac34a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ac34a.dir/build.make CMakeFiles/cmTC_ac34a.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-mk1xcY'
+Building C object CMakeFiles/cmTC_ac34a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ac34a.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-mk1xcY/CheckSymbolExists.c
+Linking C executable cmTC_ac34a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ac34a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_ac34a.dir/CheckSymbolExists.c.o -o cmTC_ac34a  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-mk1xcY'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <sys/types.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrlimit
+  return ((int*)(&getrlimit))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the posix_spawn exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-pmcP7a
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_72561/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_72561.dir/build.make CMakeFiles/cmTC_72561.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-pmcP7a'
+Building C object CMakeFiles/cmTC_72561.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_72561.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-pmcP7a/CheckSymbolExists.c
+Linking C executable cmTC_72561
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72561.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_72561.dir/CheckSymbolExists.c.o -o cmTC_72561  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-pmcP7a'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <spawn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_spawn
+  return ((int*)(&posix_spawn))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pread exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Evn280
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5c49f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5c49f.dir/build.make CMakeFiles/cmTC_5c49f.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Evn280'
+Building C object CMakeFiles/cmTC_5c49f.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5c49f.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Evn280/CheckSymbolExists.c
+Linking C executable cmTC_5c49f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c49f.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5c49f.dir/CheckSymbolExists.c.o -o cmTC_5c49f  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Evn280'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pread
+  return ((int*)(&pread))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the sbrk exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-p5Eiqc
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_051f0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_051f0.dir/build.make CMakeFiles/cmTC_051f0.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-p5Eiqc'
+Building C object CMakeFiles/cmTC_051f0.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_051f0.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-p5Eiqc/CheckSymbolExists.c
+Linking C executable cmTC_051f0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_051f0.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_051f0.dir/CheckSymbolExists.c.o -o cmTC_051f0  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-p5Eiqc'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef sbrk
+  return ((int*)(&sbrk))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-spF3o7
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7ba8a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ba8a.dir/build.make CMakeFiles/cmTC_7ba8a.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-spF3o7'
+Building C object CMakeFiles/cmTC_7ba8a.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_7ba8a.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-spF3o7/CheckSymbolExists.c
+Linking C executable cmTC_7ba8a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ba8a.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_7ba8a.dir/CheckSymbolExists.c.o -o cmTC_7ba8a  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-spF3o7'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror_r exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-i1O7GF
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2bca2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2bca2.dir/build.make CMakeFiles/cmTC_2bca2.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-i1O7GF'
+Building C object CMakeFiles/cmTC_2bca2.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_2bca2.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-i1O7GF/CheckSymbolExists.c
+Linking C executable cmTC_2bca2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bca2.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_2bca2.dir/CheckSymbolExists.c.o -o cmTC_2bca2  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-i1O7GF'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror_r
+  return ((int*)(&strerror_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setenv exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-pgpM1S
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa487/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa487.dir/build.make CMakeFiles/cmTC_aa487.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-pgpM1S'
+Building C object CMakeFiles/cmTC_aa487.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_aa487.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-pgpM1S/CheckSymbolExists.c
+Linking C executable cmTC_aa487
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa487.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_aa487.dir/CheckSymbolExists.c.o -o cmTC_aa487  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-pgpM1S'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setenv
+  return ((int*)(&setenv))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the dlopen exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-k8fXQF
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5b540/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5b540.dir/build.make CMakeFiles/cmTC_5b540.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-k8fXQF'
+Building C object CMakeFiles/cmTC_5b540.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_5b540.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-k8fXQF/CheckSymbolExists.c
+Linking C executable cmTC_5b540
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b540.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_5b540.dir/CheckSymbolExists.c.o -o cmTC_5b540  -lm -ldl 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-k8fXQF'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <dlfcn.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef dlopen
+  return ((int*)(&dlopen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-e9B9CA
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3eaf8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3eaf8.dir/build.make CMakeFiles/cmTC_3eaf8.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-e9B9CA'
+Building C object CMakeFiles/cmTC_3eaf8.dir/src.c.o
+/usr/bin/cc -DHAVE_STRUCT_STAT_ST_MTIM_TV_NSEC   -o CMakeFiles/cmTC_3eaf8.dir/src.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-e9B9CA/src.c
+Linking C executable cmTC_3eaf8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3eaf8.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_3eaf8.dir/src.c.o -o cmTC_3eaf8  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-e9B9CA'
+
+
+Source file was:
+
+#include <sys/types.h>
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_mtim.tv_nsec);
+  return 0;
+}
+
+
+Determining if the __GLIBC__ exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dkAyrp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_324f9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_324f9.dir/build.make CMakeFiles/cmTC_324f9.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dkAyrp'
+Building C object CMakeFiles/cmTC_324f9.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_324f9.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dkAyrp/CheckSymbolExists.c
+Linking C executable cmTC_324f9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_324f9.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_324f9.dir/CheckSymbolExists.c.o -o cmTC_324f9  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dkAyrp'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __GLIBC__
+  return ((int*)(&__GLIBC__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_getname_np exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Sj5dzS
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a0009/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a0009.dir/build.make CMakeFiles/cmTC_a0009.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Sj5dzS'
+Building C object CMakeFiles/cmTC_a0009.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_a0009.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Sj5dzS/CheckSymbolExists.c
+Linking C executable cmTC_a0009
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0009.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_a0009.dir/CheckSymbolExists.c.o -o cmTC_a0009  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Sj5dzS'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_getname_np
+  return ((int*)(&pthread_getname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the pthread_setname_np exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-mfLrbD
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4d7ef/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4d7ef.dir/build.make CMakeFiles/cmTC_4d7ef.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-mfLrbD'
+Building C object CMakeFiles/cmTC_4d7ef.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE   -o CMakeFiles/cmTC_4d7ef.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-mfLrbD/CheckSymbolExists.c
+Linking C executable cmTC_4d7ef
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d7ef.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_4d7ef.dir/CheckSymbolExists.c.o -o cmTC_4d7ef  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-mfLrbD'
+
+
+File CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setname_np
+  return ((int*)(&pthread_setname_np))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Performing C++ SOURCE FILE Test HAVE_STD_IS_TRIVIALLY_COPYABLE succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-f9gThQ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ceef0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ceef0.dir/build.make CMakeFiles/cmTC_ceef0.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-f9gThQ'
+Building CXX object CMakeFiles/cmTC_ceef0.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_STD_IS_TRIVIALLY_COPYABLE -D_GNU_SOURCE  -std=c++14 -o CMakeFiles/cmTC_ceef0.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-f9gThQ/src.cxx
+Linking CXX executable cmTC_ceef0
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ceef0.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_ceef0.dir/src.cxx.o -o cmTC_ceef0  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-f9gThQ'
+
+
+Source file was:
+
+#include <type_traits>
+struct T { int val; };
+static_assert(std::is_trivially_copyable<T>::value, "ok");
+int main() { return 0;}
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-4zufrl
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_99f08/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_99f08.dir/build.make CMakeFiles/cmTC_99f08.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-4zufrl'
+Building CXX object CMakeFiles/cmTC_99f08.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_ATOMICS_WITHOUT_LIB -D_GNU_SOURCE  -std=c++11 -std=c++14 -o CMakeFiles/cmTC_99f08.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-4zufrl/src.cxx
+Linking CXX executable cmTC_99f08
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_99f08.dir/link.txt --verbose=1
+/usr/bin/c++   -std=c++11 CMakeFiles/cmTC_99f08.dir/src.cxx.o -o cmTC_99f08  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-4zufrl'
+
+
+Source file was:
+
+#include <atomic>
+std::atomic<int> x;
+std::atomic<short> y;
+std::atomic<char> z;
+int main() {
+  ++z;
+  ++y;
+  return ++x;
+}
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_ATOMICS64_WITHOUT_LIB succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-d1Dql6
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_84e45/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_84e45.dir/build.make CMakeFiles/cmTC_84e45.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-d1Dql6'
+Building CXX object CMakeFiles/cmTC_84e45.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_ATOMICS64_WITHOUT_LIB -D_GNU_SOURCE  -std=c++11 -std=c++14 -o CMakeFiles/cmTC_84e45.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-d1Dql6/src.cxx
+Linking CXX executable cmTC_84e45
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84e45.dir/link.txt --verbose=1
+/usr/bin/c++  -std=c++11 CMakeFiles/cmTC_84e45.dir/src.cxx.o -o cmTC_84e45  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-d1Dql6'
+
+
+Source file was:
+
+#include <atomic>
+#include <cstdint>
+std::atomic<uint64_t> x (0);
+int main() {
+  uint64_t i = x.load(std::memory_order_relaxed);
+  (void)i;
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test LLVM_HAS_ATOMICS succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-3LyrPU
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5b1b7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5b1b7.dir/build.make CMakeFiles/cmTC_5b1b7.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-3LyrPU'
+Building CXX object CMakeFiles/cmTC_5b1b7.dir/src.cxx.o
+/usr/bin/c++ -DLLVM_HAS_ATOMICS -D_GNU_SOURCE  -std=c++14 -o CMakeFiles/cmTC_5b1b7.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-3LyrPU/src.cxx
+Linking CXX executable cmTC_5b1b7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b1b7.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_5b1b7.dir/src.cxx.o -o cmTC_5b1b7  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-3LyrPU'
+
+
+Source file was:
+
+#ifdef _MSC_VER
+#include <windows.h>
+#endif
+int main() {
+#ifdef _MSC_VER
+        volatile LONG val = 1;
+        MemoryBarrier();
+        InterlockedCompareExchange(&val, 0, 1);
+        InterlockedIncrement(&val);
+        InterlockedDecrement(&val);
+#else
+        volatile unsigned long val = 1;
+        __sync_synchronize();
+        __sync_val_compare_and_swap(&val, 1, 0);
+        __sync_add_and_fetch(&val, 1);
+        __sync_sub_and_fetch(&val, 1);
+#endif
+        return 0;
+      }
+
+
+Performing C++ SOURCE FILE Test SUPPORTS_VARIADIC_MACROS_FLAG succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-zIOUv5
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_67ede/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_67ede.dir/build.make CMakeFiles/cmTC_67ede.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-zIOUv5'
+Building CXX object CMakeFiles/cmTC_67ede.dir/src.cxx.o
+/usr/bin/c++ -DSUPPORTS_VARIADIC_MACROS_FLAG  -Wvariadic-macros -std=c++14 -o CMakeFiles/cmTC_67ede.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-zIOUv5/src.cxx
+Linking CXX executable cmTC_67ede
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ede.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_67ede.dir/src.cxx.o -o cmTC_67ede  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-zIOUv5'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAS_MAYBE_UNINITIALIZED succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-uUPkxh
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0a30d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0a30d.dir/build.make CMakeFiles/cmTC_0a30d.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-uUPkxh'
+Building CXX object CMakeFiles/cmTC_0a30d.dir/src.cxx.o
+/usr/bin/c++ -DHAS_MAYBE_UNINITIALIZED  -Wmaybe-uninitialized -std=c++14 -o CMakeFiles/cmTC_0a30d.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-uUPkxh/src.cxx
+Linking CXX executable cmTC_0a30d
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a30d.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_0a30d.dir/src.cxx.o -o cmTC_0a30d  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-uUPkxh'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-NAJmzf
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da1ee/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da1ee.dir/build.make CMakeFiles/cmTC_da1ee.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-NAJmzf'
+Building C object CMakeFiles/cmTC_da1ee.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FPIC  -Werror -fPIC -o CMakeFiles/cmTC_da1ee.dir/src.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-NAJmzf/src.c
+Linking C executable cmTC_da1ee
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da1ee.dir/link.txt --verbose=1
+/usr/bin/cc CMakeFiles/cmTC_da1ee.dir/src.c.o -o cmTC_da1ee  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-NAJmzf'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FPIC succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-N96jAh
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a33e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a33e.dir/build.make CMakeFiles/cmTC_6a33e.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-N96jAh'
+Building CXX object CMakeFiles/cmTC_6a33e.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_FPIC  -Werror -fPIC -std=c++14 -o CMakeFiles/cmTC_6a33e.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-N96jAh/src.cxx
+Linking CXX executable cmTC_6a33e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a33e.dir/link.txt --verbose=1
+/usr/bin/c++ CMakeFiles/cmTC_6a33e.dir/src.cxx.o -o cmTC_6a33e  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-N96jAh'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_SUPPORTS_FNO_SEMANTIC_INTERPOSITION succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-CiaLrI
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_db79f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_db79f.dir/build.make CMakeFiles/cmTC_db79f.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-CiaLrI'
+Building C object CMakeFiles/cmTC_db79f.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_FNO_SEMANTIC_INTERPOSITION  -fPIC    -Werror -fno-semantic-interposition -o CMakeFiles/cmTC_db79f.dir/src.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-CiaLrI/src.c
+Linking C executable cmTC_db79f
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db79f.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC  CMakeFiles/cmTC_db79f.dir/src.c.o -o cmTC_db79f  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-CiaLrI'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-9MVOcZ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_daad2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_daad2.dir/build.make CMakeFiles/cmTC_daad2.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-9MVOcZ'
+Building CXX object CMakeFiles/cmTC_daad2.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_FNO_SEMANTIC_INTERPOSITION  -fPIC    -Werror -fno-semantic-interposition -std=c++14 -o CMakeFiles/cmTC_daad2.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-9MVOcZ/src.cxx
+Linking CXX executable cmTC_daad2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daad2.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC  CMakeFiles/cmTC_daad2.dir/src.cxx.o -o cmTC_daad2  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-9MVOcZ'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test SUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dPvuPn
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_64989/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_64989.dir/build.make CMakeFiles/cmTC_64989.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dPvuPn'
+Building CXX object CMakeFiles/cmTC_64989.dir/src.cxx.o
+/usr/bin/c++ -DSUPPORTS_FVISIBILITY_INLINES_HIDDEN_FLAG  -fPIC -fno-semantic-interposition    -fvisibility-inlines-hidden -std=c++14 -o CMakeFiles/cmTC_64989.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dPvuPn/src.cxx
+Linking CXX executable cmTC_64989
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64989.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition  CMakeFiles/cmTC_64989.dir/src.cxx.o -o cmTC_64989  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-dPvuPn'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-eQbDuC
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ddd8e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ddd8e.dir/build.make CMakeFiles/cmTC_ddd8e.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-eQbDuC'
+Building C object CMakeFiles/cmTC_ddd8e.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_WERROR_DATE_TIME  -fPIC -fno-semantic-interposition    -Werror -Werror=date-time -o CMakeFiles/cmTC_ddd8e.dir/src.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-eQbDuC/src.c
+Linking C executable cmTC_ddd8e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ddd8e.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition  CMakeFiles/cmTC_ddd8e.dir/src.c.o -o cmTC_ddd8e  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-eQbDuC'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_WERROR_DATE_TIME succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-vVgper
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_27d8e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_27d8e.dir/build.make CMakeFiles/cmTC_27d8e.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-vVgper'
+Building CXX object CMakeFiles/cmTC_27d8e.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_WERROR_DATE_TIME  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden    -Werror -Werror=date-time -std=c++14 -o CMakeFiles/cmTC_27d8e.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-vVgper/src.cxx
+Linking CXX executable cmTC_27d8e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_27d8e.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden  CMakeFiles/cmTC_27d8e.dir/src.cxx.o -o cmTC_27d8e  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-vVgper'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Zyomgy
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_deb78/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_deb78.dir/build.make CMakeFiles/cmTC_deb78.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Zyomgy'
+Building CXX object CMakeFiles/cmTC_deb78.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_MISSING_FIELD_INITIALIZERS_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual    -Wmissing-field-initializers -std=c++14 -o CMakeFiles/cmTC_deb78.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Zyomgy/src.cxx
+Linking CXX executable cmTC_deb78
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_deb78.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual  CMakeFiles/cmTC_deb78.dir/src.cxx.o -o cmTC_deb78  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Zyomgy'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gYS6JI
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ff8c8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ff8c8.dir/build.make CMakeFiles/cmTC_ff8c8.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gYS6JI'
+Building C object CMakeFiles/cmTC_ff8c8.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long    -Werror -Wimplicit-fallthrough -o CMakeFiles/cmTC_ff8c8.dir/src.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gYS6JI/src.c
+Linking C executable cmTC_ff8c8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff8c8.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long  CMakeFiles/cmTC_ff8c8.dir/src.c.o -o cmTC_ff8c8  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-gYS6JI'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-eIaWwI
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c05f9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c05f9.dir/build.make CMakeFiles/cmTC_c05f9.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-eIaWwI'
+Building CXX object CMakeFiles/cmTC_c05f9.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_IMPLICIT_FALLTHROUGH_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long    -Werror -Wimplicit-fallthrough -std=c++14 -o CMakeFiles/cmTC_c05f9.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-eIaWwI/src.cxx
+Linking CXX executable cmTC_c05f9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c05f9.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long  CMakeFiles/cmTC_c05f9.dir/src.cxx.o -o cmTC_c05f9  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-eIaWwI'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_CLASS_MEMACCESS_FLAG succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-oiUTuJ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bb2a8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bb2a8.dir/build.make CMakeFiles/cmTC_bb2a8.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-oiUTuJ'
+Building CXX object CMakeFiles/cmTC_bb2a8.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_CLASS_MEMACCESS_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized    -Wclass-memaccess -std=c++14 -o CMakeFiles/cmTC_bb2a8.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-oiUTuJ/src.cxx
+Linking CXX executable cmTC_bb2a8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bb2a8.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized  CMakeFiles/cmTC_bb2a8.dir/src.cxx.o -o cmTC_bb2a8  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-oiUTuJ'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_NOEXCEPT_TYPE_FLAG succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Xy3pnK
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6fb7b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6fb7b.dir/build.make CMakeFiles/cmTC_6fb7b.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Xy3pnK'
+Building CXX object CMakeFiles/cmTC_6fb7b.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_NOEXCEPT_TYPE_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess    -Wnoexcept-type -std=c++14 -o CMakeFiles/cmTC_6fb7b.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Xy3pnK/src.cxx
+Linking CXX executable cmTC_6fb7b
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6fb7b.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess  CMakeFiles/cmTC_6fb7b.dir/src.cxx.o -o cmTC_6fb7b  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Xy3pnK'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-fdKy2B
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d87e4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d87e4.dir/build.make CMakeFiles/cmTC_d87e4.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-fdKy2B'
+Building CXX object CMakeFiles/cmTC_d87e4.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_SUGGEST_OVERRIDE_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor    -Wsuggest-override -std=c++14 -o CMakeFiles/cmTC_d87e4.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-fdKy2B/src.cxx
+Linking CXX executable cmTC_d87e4
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d87e4.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor  CMakeFiles/cmTC_d87e4.dir/src.cxx.o -o cmTC_d87e4  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-fdKy2B'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C SOURCE FILE Test C_SUPPORTS_MISLEADING_INDENTATION_FLAG succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-GfUunY
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9355e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9355e.dir/build.make CMakeFiles/cmTC_9355e.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-GfUunY'
+Building C object CMakeFiles/cmTC_9355e.dir/src.c.o
+/usr/bin/cc -DC_SUPPORTS_MISLEADING_INDENTATION_FLAG  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment    -Werror -Wmisleading-indentation -o CMakeFiles/cmTC_9355e.dir/src.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-GfUunY/src.c
+Linking C executable cmTC_9355e
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9355e.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment  CMakeFiles/cmTC_9355e.dir/src.c.o -o cmTC_9355e  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-GfUunY'
+
+
+Source file was:
+int main(void) { return 0; }
+
+Performing C++ SOURCE FILE Test CXX_SUPPORTS_MISLEADING_INDENTATION_FLAG succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Pgwez3
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ef671/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ef671.dir/build.make CMakeFiles/cmTC_ef671.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Pgwez3'
+Building CXX object CMakeFiles/cmTC_ef671.dir/src.cxx.o
+/usr/bin/c++ -DCXX_SUPPORTS_MISLEADING_INDENTATION_FLAG  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment    -Werror -Wmisleading-indentation -std=c++14 -o CMakeFiles/cmTC_ef671.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Pgwez3/src.cxx
+Linking CXX executable cmTC_ef671
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef671.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment  CMakeFiles/cmTC_ef671.dir/src.cxx.o -o cmTC_ef671  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-Pgwez3'
+
+
+Source file was:
+int main() { return 0; }
+
+Determining if the __x86_64__ exist passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-e1fdzF
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da05a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_da05a.dir/build.make CMakeFiles/cmTC_da05a.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-e1fdzF'
+Building C object CMakeFiles/cmTC_da05a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -fno-semantic-interposition -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -Wmisleading-indentation  -o CMakeFiles/cmTC_da05a.dir/CheckSymbolExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-e1fdzF/CheckSymbolExists.c
+Linking C executable cmTC_da05a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da05a.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -Wmisleading-indentation  CMakeFiles/cmTC_da05a.dir/CheckSymbolExists.c.o -o cmTC_da05a  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-e1fdzF'
+
+
+File CheckSymbolExists.c:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __x86_64__
+  return ((int*)(&__x86_64__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function shm_open exists in the rt passed with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-iWpr0c
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fbbe5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_fbbe5.dir/build.make CMakeFiles/cmTC_fbbe5.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-iWpr0c'
+Building C object CMakeFiles/cmTC_fbbe5.dir/CheckFunctionExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -Wmisleading-indentation -DCHECK_FUNCTION_EXISTS=shm_open -o CMakeFiles/cmTC_fbbe5.dir/CheckFunctionExists.c.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-iWpr0c/CheckFunctionExists.c
+Linking C executable cmTC_fbbe5
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fbbe5.dir/link.txt --verbose=1
+/usr/bin/cc  -fPIC -fno-semantic-interposition -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-comment -Wmisleading-indentation -DCHECK_FUNCTION_EXISTS=shm_open CMakeFiles/cmTC_fbbe5.dir/CheckFunctionExists.c.o -o cmTC_fbbe5  -lrt -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-iWpr0c'
+
+
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_STD_CXX11 succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-aGkl6z
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4fa00/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4fa00.dir/build.make CMakeFiles/cmTC_4fa00.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-aGkl6z'
+Building CXX object CMakeFiles/cmTC_4fa00.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_STD_CXX11  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11   -std=c++11 -std=c++14 -o CMakeFiles/cmTC_4fa00.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-aGkl6z/src.cxx
+Linking CXX executable cmTC_4fa00
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4fa00.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11 CMakeFiles/cmTC_4fa00.dir/src.cxx.o -o cmTC_4fa00  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-aGkl6z'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WALL succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-P1K3lj
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a586/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a586.dir/build.make CMakeFiles/cmTC_6a586.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-P1K3lj'
+Building CXX object CMakeFiles/cmTC_6a586.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WALL  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall   -Wall -std=c++14 -o CMakeFiles/cmTC_6a586.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-P1K3lj/src.cxx
+Linking CXX executable cmTC_6a586
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6a586.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall CMakeFiles/cmTC_6a586.dir/src.cxx.o -o cmTC_6a586  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-P1K3lj'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WEXTRA succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-TXozZO
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aff09/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aff09.dir/build.make CMakeFiles/cmTC_aff09.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-TXozZO'
+Building CXX object CMakeFiles/cmTC_aff09.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WEXTRA  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra   -Wextra -std=c++14 -o CMakeFiles/cmTC_aff09.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-TXozZO/src.cxx
+Linking CXX executable cmTC_aff09
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aff09.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra CMakeFiles/cmTC_aff09.dir/src.cxx.o -o cmTC_aff09  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-TXozZO'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSHADOW succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-G2chUW
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7b954/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7b954.dir/build.make CMakeFiles/cmTC_7b954.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-G2chUW'
+Building CXX object CMakeFiles/cmTC_7b954.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSHADOW  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow   -Wshadow -std=c++14 -o CMakeFiles/cmTC_7b954.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-G2chUW/src.cxx
+Linking CXX executable cmTC_7b954
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7b954.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow CMakeFiles/cmTC_7b954.dir/src.cxx.o -o cmTC_7b954  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-G2chUW'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSUGGEST_OVERRIDE succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-qlsOIQ
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6c336/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6c336.dir/build.make CMakeFiles/cmTC_6c336.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-qlsOIQ'
+Building CXX object CMakeFiles/cmTC_6c336.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSUGGEST_OVERRIDE  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override   -Wsuggest-override -std=c++14 -o CMakeFiles/cmTC_6c336.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-qlsOIQ/src.cxx
+Linking CXX executable cmTC_6c336
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c336.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override CMakeFiles/cmTC_6c336.dir/src.cxx.o -o cmTC_6c336  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-qlsOIQ'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-y3vBKe
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0bbca/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0bbca.dir/build.make CMakeFiles/cmTC_0bbca.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-y3vBKe'
+Building CXX object CMakeFiles/cmTC_0bbca.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic   -pedantic -std=c++14 -o CMakeFiles/cmTC_0bbca.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-y3vBKe/src.cxx
+Linking CXX executable cmTC_0bbca
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bbca.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic CMakeFiles/cmTC_0bbca.dir/src.cxx.o -o cmTC_0bbca  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-y3vBKe'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_PEDANTIC_ERRORS succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-iu8083
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0edeb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_0edeb.dir/build.make CMakeFiles/cmTC_0edeb.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-iu8083'
+Building CXX object CMakeFiles/cmTC_0edeb.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_PEDANTIC_ERRORS  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors   -pedantic-errors -std=c++14 -o CMakeFiles/cmTC_0edeb.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-iu8083/src.cxx
+Linking CXX executable cmTC_0edeb
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0edeb.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors CMakeFiles/cmTC_0edeb.dir/src.cxx.o -o cmTC_0edeb  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-iu8083'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-nqS1Ah
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9b078/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9b078.dir/build.make CMakeFiles/cmTC_9b078.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-nqS1Ah'
+Building CXX object CMakeFiles/cmTC_9b078.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_FSTRICT_ALIASING  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing   -fstrict-aliasing -std=c++14 -o CMakeFiles/cmTC_9b078.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-nqS1Ah/src.cxx
+Linking CXX executable cmTC_9b078
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b078.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing CMakeFiles/cmTC_9b078.dir/src.cxx.o -o cmTC_9b078  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-nqS1Ah'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-CQ63zV
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_939e2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_939e2.dir/build.make CMakeFiles/cmTC_939e2.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-CQ63zV'
+Building CXX object CMakeFiles/cmTC_939e2.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WNO_DEPRECATED_DECLARATIONS  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations   -Wno-deprecated-declarations -std=c++14 -o CMakeFiles/cmTC_939e2.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-CQ63zV/src.cxx
+Linking CXX executable cmTC_939e2
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_939e2.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations CMakeFiles/cmTC_939e2.dir/src.cxx.o -o cmTC_939e2  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-CQ63zV'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_FNO_EXCEPTIONS succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-vuRF97
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_55478/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_55478.dir/build.make CMakeFiles/cmTC_55478.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-vuRF97'
+Building CXX object CMakeFiles/cmTC_55478.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_FNO_EXCEPTIONS  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions   -fno-exceptions -std=c++14 -o CMakeFiles/cmTC_55478.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-vuRF97/src.cxx
+Linking CXX executable cmTC_55478
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_55478.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions CMakeFiles/cmTC_55478.dir/src.cxx.o -o cmTC_55478  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-vuRF97'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_WSTRICT_ALIASING succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-D0dzj2
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bc4f7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bc4f7.dir/build.make CMakeFiles/cmTC_bc4f7.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-D0dzj2'
+Building CXX object CMakeFiles/cmTC_bc4f7.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_WSTRICT_ALIASING  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing   -Wstrict-aliasing -std=c++14 -o CMakeFiles/cmTC_bc4f7.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-D0dzj2/src.cxx
+Linking CXX executable cmTC_bc4f7
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc4f7.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing CMakeFiles/cmTC_bc4f7.dir/src.cxx.o -o cmTC_bc4f7  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-D0dzj2'
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CXX_FLAG_COVERAGE succeeded with the following output:
+Change Dir: /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-BJkFl9
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b1f8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b1f8.dir/build.make CMakeFiles/cmTC_8b1f8.dir/build
+gmake[1]: Entering directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-BJkFl9'
+Building CXX object CMakeFiles/cmTC_8b1f8.dir/src.cxx.o
+/usr/bin/c++ -DHAVE_CXX_FLAG_COVERAGE  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  --coverage   --coverage -std=c++14 -o CMakeFiles/cmTC_8b1f8.dir/src.cxx.o -c /home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-BJkFl9/src.cxx
+Linking CXX executable cmTC_8b1f8
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b1f8.dir/link.txt --verbose=1
+/usr/bin/c++  -fPIC -fno-semantic-interposition -fvisibility-inlines-hidden -Werror=date-time -Wall -Wextra -Wno-unused-parameter -Wwrite-strings -Wcast-qual -Wno-missing-field-initializers -pedantic -Wno-long-long -Wimplicit-fallthrough -Wno-maybe-uninitialized -Wno-class-memaccess -Wno-noexcept-type -Wdelete-non-virtual-dtor -Wno-comment -Wmisleading-indentation  -std=c++11  -Wall  -Wextra  -Wshadow  -Wsuggest-override  -pedantic  -pedantic-errors  -fstrict-aliasing  -Wno-deprecated-declarations  -fno-exceptions  -Wstrict-aliasing  --coverage CMakeFiles/cmTC_8b1f8.dir/src.cxx.o -o cmTC_8b1f8  -lm 
+gmake[1]: Leaving directory '/home/pegasus/Documents/LLVM_Rust/CCR-master/llvm/mybuilddir/CMakeFiles/CMakeScratch/TryCompile-BJkFl9'
+
+
+Source file was:
+int main() { return 0; }
+
